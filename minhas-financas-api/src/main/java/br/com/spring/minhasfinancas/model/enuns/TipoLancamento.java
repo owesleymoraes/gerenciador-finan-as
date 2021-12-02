@@ -1,4 +1,4 @@
-package br.com.spring.minhasfinancas.enuns;
+package br.com.spring.minhasfinancas.model.enuns;
 
 public enum TipoLancamento {
 	RECEITA, DESPESA;
