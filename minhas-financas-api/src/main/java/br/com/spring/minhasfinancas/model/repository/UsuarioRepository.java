@@ -12,6 +12,12 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 	
 	boolean existsByEmail(String email);
 	
+	Optional<Usuario> findByEmail(String email);
+	
+	
+	//existsByEmail e findByEmail é uma forma que jpa reconhece para fazer seus
+	// query-metodos ou seja essa nomeclatura terá uma relação direta com o banco.
+	
 	
 
 }
