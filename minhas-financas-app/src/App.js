@@ -1,4 +1,5 @@
 import React from "react";
+import Login from "./views/Login";
 
 import 'bootswatch/dist/flatly/bootstrap.css'
 
@@ -9,8 +10,8 @@ class App extends React.Component {
 
     return (
       <div>
-        <button type="button" className="btn btn-primary">Primary</button>
-        </div>
+        <Login />
+      </div>
     )
   }
 
